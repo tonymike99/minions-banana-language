@@ -5,6 +5,7 @@ body {
     background-size: cover;
     font-family: 'Fuzzy Bubbles', sans-serif;
     font-weight: bolder;
+    padding: 100px;
 }
 
 .top h1 {
@@ -12,7 +13,7 @@ body {
 }
 
 .middle {
-    width: 500px;
+    width: 450px;
     margin: auto;
 }
 
@@ -22,6 +23,11 @@ button {
     border: 2px solid blue;
     border-radius: 10px;
     font-family: inherit;
+    background-color: rgb(94, 221, 132);
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 textarea {
